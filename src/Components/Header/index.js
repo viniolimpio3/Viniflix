@@ -1,9 +1,27 @@
 import React from 'react';
+import logo from '../../assets/logo.png';
 
-export const Header = () =>{
+import {Link} from 'react-router-dom';
+import ButtonLink from '../ButtonLink';
+import { NavStyle, StyledButton } from './style';
+
+const Header = () =>{
     return(
-        <div>
-            HEADER
-        </div>
+        <nav>
+            <NavStyle>
+
+                <Link to="/">
+                    <img src={logo} alt="ViniFlix" title="ViniFlix"/>
+                </Link>
+                <StyledButton>
+                    <ButtonLink href="">
+                        Novo Vídeo
+                    </ButtonLink>
+                </StyledButton>
+                    
+                
+            </NavStyle>
+        </nav>
     );
 }
+export default Header;

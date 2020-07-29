@@ -2,8 +2,9 @@ import React from 'react';
 
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
-import Home from './Pages/Index';
-export const Routes = () =>{
+import Home from './Pages/Index/index';
+
+const Routes = () =>{
     return(
         <BrowserRouter>
             <Switch>
@@ -12,3 +13,4 @@ export const Routes = () =>{
         </BrowserRouter>
     );
 }
+export default Routes;

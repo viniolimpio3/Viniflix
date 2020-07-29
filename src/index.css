@@ -3,7 +3,6 @@
 *{
   box-sizing: border-box;/*determina que o */
   font-family: 'Ubuntu', 'Roboto';
-  color: #db202c;
 }
 :root{
   --primary: #db202c;
@@ -13,6 +12,7 @@
   --m-gray:#e5e5e5;
   --frontEnd:#6bd1ff;
   --backEnd:#00c86f;
+
 }
 
 html, body{
@@ -20,6 +20,14 @@ html, body{
   padding: 0;
 }
 
+body{
+  padding-top: 100px !important;
+}
+@media(max-width:900px){
+  body{
+    padding-top:55px;
+  }
+}
 a{
   color: inherit;/*'herdar'*/
 }
