@@ -34,12 +34,12 @@ const Home = () =>{
             <Carousel
                 category={firstData.categorias[3]}
             />
+            
             <Carousel
                 category={firstData.categorias[4]}
             />
 
             <Footer />
-
         </div>
     );
 }

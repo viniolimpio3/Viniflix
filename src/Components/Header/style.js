@@ -13,7 +13,6 @@ export const NavStyle = styled.div`
     right:0;
     height:100px;
 
-
     padding-left:5%;
     padding-right:5%;
 
